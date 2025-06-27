@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+
+
+
+strong {
+    color: #0D3451 !important;
+    font-family: "Zain", sans-serif;
+}
+
+
+p {
+    font-family: "Mulish", sans-serif;
+}
+
+.customNavBar {
+    background-color: #1F2F3B;
+
+}
+
+.navbar-nav {
+    justify-content: space-around !important;
+    align-items: center !important;
+}
+
+.customNavBar a {
+    color: white;
+    font-weight: 100;
+    font-size: larger;
+}
+
+.customNavBar a.active {
+
+    font-weight: 600;
+}
+
+.customNavBar ul {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.navbar-brand {
+    width: 20%;
+    max-width: 250px;
+}
+
+.separator {
+    color: white;
+    font-weight: 100;
+}
+
+
+/*Iframe*/
+.contenedor-iframe {
+    /* max-width: 50%; */
+    width: 100%;
+}
+
+.contenedor-iframe--izquierda {
+    margin: 0 30px 10px 0;
+    float: left;
+}
+
+.contenedor-iframe--derecha {
+    margin: 0 0 10px 30px;
+    float: right;
+}
+
+.contenedor-iframe--center {
+    max-width: 700px;
+    margin: auto;
+}
+
+.iframe-responsive {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+
+}
+
+.iframe-responsive iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg-green {
+    background-color: #98CB15;
+    color: white;
+    padding: 4% 6%;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.bg-green.tl {
+    text-align: left;
+    font-size: medium;
+    padding: 1% 3% !important;
+}
+
+.BoxFase .flexV {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    box-shadow: 1px 2px 3px 0px #0d345175;
+    padding: 1% 11%;
+    border-radius: 15px;
+    margin: 4% 0%;
+    transition: all 0.5s;
+    height: -webkit-fill-available;
+}
+
+.BoxFase .flexV:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.BoxFase .flexH {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flexfases {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.flexfases .BoxFase {
+    width: 25%;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    margin: 1%;
+    font-weight: 300;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.BoxFaseMini {
+    width: 4%;
+    min-width: 50px;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    margin: 1%;
+    font-weight: 300;
+    align-items: center !important;
+    justify-content: center;
+}
+
+h2 {
+    color: #0D3451 !important;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: 600 !important;
+    font-family: "Zain", sans-serif;
+
+}
+
+.flexfases .BoxFase h3 {
+    color: #98CB15;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 0 !important;
+    font-family: "Zain", sans-serif;
+
+}
+
+.f-4 {
+    font-size: x-large;
+
+}
+
+
+
+.ArrowBoxFases {
+    width: 10%;
+}
+
+.relative {
+    position: relative;
+}
+
+.backGray {
+    background-color: #F6F6F6;
+}
+
+.backwhite {
+    background-color: white;
+}
+
+.flexCards {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-top: 3%;
+}
+
+.flexCards p {
+    font-family: "Zain", sans-serif !important;
+    color: #0D3451 !important;
+
+}
+
+.spangreen {
+    color: #98CB15;
+}
+
+.spanwhite {
+    color: white;
+}
+
+.cards {
+    width: 23%;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    font-size: larger;
+}
+
+.w-40 {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.w-80 {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.cards.white {
+    background-color: white;
+}
+
+.cards.blue {
+    background-color: #0D3451;
+}
+
+.cards.green {
+    background-color: #98CB15;
+}
+
+.cards.blue p {
+    color: white !important;
+}
+
+.accordion-button {
+    color: #0D3451 !important;
+    font-weight: 800 !important;
+}
+
+.flexAccord {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: larger;
+    text-align: center;
+    font-family: "Zain", sans-serif;
+}
+
+.IconAccord {
+    height: 80%;
+    width: auto;
+
+    max-height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.flexAccord .flexV {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: #98cb1521 !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #98cb15 !important;
+}
+
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1 !important;
+}
+
+.f-n {
+    /* font-size: large; */
+    font-weight: 400;
+}
+
+.padding-5 {
+    padding: 5% 7% !important;
+}
+
+.justi {
+    text-align: justify;
+}
+
+.flexEquipo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.flexEquipo .BoxEquipo {
+    width: 20%;
+    margin: 1%;
+    display: flex;
+    border-radius: 20px;
+    height: inherit;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    transition: all 0.5s;
+    text-align: center;
+
+}
+
+.flexEquipo .BoxEquipo p {
+    background-color: #0D3451;
+    color: white;
+    padding: 0% 8%;
+    margin: 0% 0% !important;
+    height: 100%;
+    font-size: xx-small;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.flexEquipo .BoxEquipo:hover {
+    transform: scale(0.9);
+    filter: drop-shadow(1px 1px black);
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.aliadosflex a {
+    /* filter: drop-shadow(1px 1px 1px black); */
+    text-decoration: none;
+    box-shadow: 1px 1px 3px #1f2f3b5e;
+}
+
+.aliadosflex a:hover {
+    filter: none !important;
+}
+
+.aliadosflex {
+    margin-bottom: 5%;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #0D3451 !important;
+    color: white;
+}
+
+.flexNoticias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.BoxNoticia {
+width: 45%;
+    padding: 1%;
+    margin: 1%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.BoxNoticia p {
+    color: #0D3451;
+    font-weight: 700 !important;
+}
+
+.btn.btn-noticia {
+    background-color: #98CB15;
+    color: white;
+}
+.btn.btn-noticia:hover{
+    background-color: #0D3451;
+    color: white;
+}
+
+.BoxNoticia img{
+    border-radius: 10px;
+}
