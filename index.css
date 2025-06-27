@@ -140,8 +140,8 @@ p {
 
 .flexfases .BoxFase {
     width: 25%;
-    min-width: 200px;
-    max-width: 400px;
+    min-width: 310px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -242,6 +242,7 @@ h2 {
     border-radius: 30px;
     background-color: white;
     font-size: larger;
+    min-width: 300px;
 }
 
 .w-40 {
@@ -357,6 +358,7 @@ h2 {
     justify-content: space-between;
     transition: all 0.5s;
     text-align: center;
+        min-width: 300px;
 
 }
 
@@ -422,6 +424,7 @@ width: 45%;
 ;
     flex-direction: column;
     justify-content: space-evenly;
+    min-width: 300px;
 
 }
 
